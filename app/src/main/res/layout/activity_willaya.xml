@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".WillayaActivity">
+
+    <TextView
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="Chose your wilaya : "
+    android:textColor="@color/Black2"
+    android:textSize="19dp"
+    android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_blu1"
+        android:layout_marginTop="50dp"
+        android:entries="@array/wilayas_algeria" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Location  "
+            android:textColor="@color/blue"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/directions_bro"/>
+        <Button
+            android:id="@+id/btn_newt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_pink"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

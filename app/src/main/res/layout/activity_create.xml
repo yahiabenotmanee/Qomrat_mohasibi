@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/white"
+            android:gravity="center"
+            >
+            <LinearLayout
+
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/btn_pink"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                app:cardElevation="15dp"
+                android:elevation="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.892"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.839">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+android:src="@drawable/account_white"
+                    android:layout_marginTop="30dp"
+                    />
+                <Button
+android:id="@+id/btn_clien1"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_white"
+                    android:text="Client"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/blue"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/btn_pink"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                app:cardElevation="15dp"
+                android:elevation="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.892"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.839">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/compatible"
+                    android:layout_marginTop="30dp"
+                    />
+                <Button
+                    android:id="@+id/btn_compatible1"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_white"
+                    android:text="Compatible"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/blue"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

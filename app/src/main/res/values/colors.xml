@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Pup">#49386c</color>
+    <color name="Pup2">#7d64b7</color>
+    <color name="pink">#ef9292</color>
+    <color name="yell">#ffe394</color>
+    <color name="pink1">#fbebeb</color>
+    <color name="Black2">#41423f</color>
+    <color name="Black_for_hint">#a0a0a0</color>
+    <color name="pup_backg">#f3ebfb</color>
+    <color name="blue">#33D4CC</color>
+
+</resources>
